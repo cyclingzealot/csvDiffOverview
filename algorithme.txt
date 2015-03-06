@@ -1,0 +1,24 @@
+Algorithme
+
+CLI Arguments specifies:
+- Directory containing the files
+- Desired column
+
+In the directory there should be files formatted as:
+- YYYY-MM-DD-HH-mm-ss.csv , date of csv file when it was saved
+
+The output of the script would be 
+- summary.csv: the overview of the values for the specified column
+- summary.html: same as summary.csv in html output
+
+
+Summary.csv would contain:
+- Column 0: the column 0 of all the dated csv files.  In the case of redmine's issues.csv  service this would be the list of tickets that are open or were open (ie probably all tickets)
+- Column 1 to N: The value of the specified column, in the case of the initial usage, it would be the estimated time column
+- Row M: The bottom row would be the total of all columns 1 to N
+
+Nice to haves:
+- The script would not require all dated csv files from the beginning of time, but could pick up from what the summary already has
+- Once a row no longer exists an X is marked on the column for the chronologically next report
+- Scipt takes on command line arguments the columns to merge together to form column 0 that way you can merge ticket ID and ticket title
+
