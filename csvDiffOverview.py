@@ -68,8 +68,13 @@ for file in files:
     with open(datadir +'/'+ file, 'rb') as csvfile:
         reader = csv.reader(csvfile, delimiter=';');
         
+        line = 0;
+        
         for row in reader:
+            if line==0: continue
+            
             data[(row[0], toHeaderStr(file))] = row[9]
+            line += 1
             
 
 with open(datadir + '/summary.csv', 'wb') as outf:
