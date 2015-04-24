@@ -4,3 +4,5 @@
 data/
 getURL.config
 urls.config
+.project
+.pydevproject
