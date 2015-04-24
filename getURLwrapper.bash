@@ -64,7 +64,10 @@ for pair in `cat $urlsFile`; do
 	echo Generating summary for $dir in $datadir
 	python ./csvDiffOverview.py $datadir $column
 
-	echo
+	echo Removing identical reports....
+	$__dir/removeDuplicateReports.bash $datadir
+
+	echo; sleep 5
 done
 cd -
 
