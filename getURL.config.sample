@@ -1,0 +1,3 @@
+redmineApiKey=fvsjalvkcajsvlacsjlvjasl
+url='https://www.redmine.org/projects/sg1/issues.csv?set_filter=1&key=${redmineApiKey}&columns=all'
+column=15

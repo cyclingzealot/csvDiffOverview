@@ -1,1 +1,5 @@
 .~lock.*#
+.settings/
+\.*.sw?
+data/
+getURL.config
