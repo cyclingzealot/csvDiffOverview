@@ -3,3 +3,4 @@
 \.*.sw?
 data/
 getURL.config
+urls.config

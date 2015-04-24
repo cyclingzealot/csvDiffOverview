@@ -56,30 +56,29 @@ def dataArray(data2d, rowIterField=0, rowLabel='', defaultVal=''):
 
 import sys
 
+# Get the data dir 
+datadir = sys.argv[1]
 
 # Get the column user wants to view over time as first argument to script
 # Redmine issues report time spent:	column 15
 # Redmine issues report time remaining:	column 14
 column = 15
-if sys.argv[1]:
-    column = sys.argv[1]
+if sys.argv[2]:
+    column = sys.argv[2]
 
 # Get in the second argument a column which supplies a description
 # NOt added to summary if not supplied
 # Any value will add by default column #6
 # A number will use that column instead of column 6
 rowDesc = None
-if len(sys.argv) == 3:
+if len(sys.argv) == 4:
     rowDesc = 6
-    if is_number(sys.argv[2]):
-        rowDesc = sysargv[2]
+    if is_number(sys.argv[3]):
+        rowDesc = sysargv[3]
     
 
 # Get the basedir of the script
 basedir = path.dirname(path.realpath(__file__))
-
-# Set the datadir 
-datadir = basedir + '/data/' 
 
 # Regex for data files
 matcher = re.compile("^[0-9]{8}-[0-9]{6}\.csv$")
