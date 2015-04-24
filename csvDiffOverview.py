@@ -10,6 +10,14 @@ from os.path import isfile, join
 #from aptdaemon.config import __author__
 
      
+def is_number(s):
+    "author: Daniel Goldberg http://stackoverflow.com/questions/354038/how-do-i-check-if-a-string-is-a-number-float-in-python"
+    try:
+        float(s)
+        return True
+    except ValueError:
+        return False
+
 def toHeaderStr(fileName):
     "takes the expected filename and returns it as string in antoher date time format"
     dateTimeObj = datetime.strptime(fileName, '%Y%m%d-%H%M%S.csv')
@@ -49,12 +57,23 @@ def dataArray(data2d, rowIterField=0, rowLabel='', defaultVal=''):
 import sys
 
 
-# Get the column user want as first argument
+# Get the column user wants to view over time as first argument to script
 # Redmine issues report time spent:	column 15
 # Redmine issues report time remaining:	column 14
 column = 15
 if sys.argv[1]:
     column = sys.argv[1]
+
+# Get in the second argument a column which supplies a description
+# NOt added to summary if not supplied
+# Any value will add by default column #6
+# A number will use that column instead of column 6
+rowDesc = None
+if len(sys.argv) == 3:
+    rowDesc = 6
+    if is_number(sys.argv[2]):
+        rowDesc = sysargv[2]
+    
 
 # Get the basedir of the script
 basedir = path.dirname(path.realpath(__file__))
@@ -86,8 +105,12 @@ for file in files:
         for row in reader:
 	    #Store in data varirable, indexed by tuple of (ticket number, timestamp)
 	    #The tupple allows to express an xy grid for the csv file which csv.writerows can use
+            if rowDesc:
+		data[(row[0], 'desciption')] = row[int(rowDesc)]
+
             if line > 0:
-                data[(row[0], toHeaderStr(file))] = row[9]
+                data[(row[0], toHeaderStr(file))] = row[int(column)]
+
             line += 1
             
             

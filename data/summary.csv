@@ -1,102 +1,52 @@
-ticket,2015/03/06 16:18:22,2015/03/12 13:08:12,2015/03/12 13:14:00
-1494,5,5,5
-1496,5,,
-1637,,,
-1657,5,5,5
-1658,,,
-1664,,,
-1777,,,
-1778,,,
-1868,1,1,1
-1908,,,
-2442,,,
-3318,,,
-3490,,,
-3575,0,0,0
-3576,,,
-3582,,,
-3583,,,
-3604,"1,5",1,1
-3625,,,
-3742,,,
-3743,8,8,8
-3806,,,
-3835,,,
-4025,,,
-4271,,,
-4470,,,
-4530,,,
-4588,,,
-4591,,,
-4654,6,6,6
-4655,4,4,4
-4674,,,
-4677,,,
-4711,3,3,3
-4932,,,
-4934,,,
-5027,,,
-5030,2,2,2
-5060,2,2,2
-5173,3,3,3
-5190,,,
-5195,,,
-5205,,,
-5207,,,
-5216,6,6,6
-5218,3,3,3
-5226,2,2,2
-5291,,,
-5293,3,3,3
-5294,5,5,5
-5311,"11,25",11,11
-5462,,,
-5466,,,
-5468,,,
-5524,4,4,4
-5585,,,
-5586,0,0,0
-5592,,,
-5610,,,
-5611,,,
-5618,,,
-5622,,,
-5630,,,
-5689,,,
-5757,,,
-5801,,,
-5817,"11,5",11,11
-5820,,,
-5824,,,
-5831,,,
-5835,,,
-5874,,,
-5875,,,
-5936,,,
-6317,,,
-6394,3,3,3
-6395,3,3,3
-6397,5,5,5
-6400,3,3,3
-6415,3,3,3
-6423,4,4,4
-6426,,,
-6473,,,
-6500,4,4,4
-6501,6,6,6
-6513,,,
-6670,,,
-6709,,,
-6731,0,0,0
-6803,2,,
-6804,3,3,3
-6805,26,26,26
-7381,18,18,18
-7672,,,
-7810,,,
-7811,,,
-7812,,,
-7813,,,
-7814,,,
-7815,,,
-7918,,,
+ticket,2015/04/23 20:42:52,2015/04/23 20:43:16,2015/04/23 20:49:46,2015/04/23 21:00:01,desciption
+#,,,,,Sujet
+9011,"112,96","112,96","112,96","112,96",Training
+9012,"31,28","31,28","31,28","31,28",Admin work
+9054,"10,01","10,01","10,01","10,01",Troubleshooting/bug fixes
+9077,"32,61","32,61","32,61","32,61",Documents
+9079,"29,05","29,05","29,05","29,05",Research
+9121,"25,28","25,28","25,28","25,28",Setting up environment. Setting up remote access
+9125,"2,05","2,05","2,05","2,05",New features
+9129,"119,70","119,70","119,70","119,70","Communicating between members to give status update, etc"
+9170,"30,80","30,80","30,80","30,80",HR wants Completed 1:1 by Team
+9175,"1,10","1,10","1,10","1,10",Setup Nagios service within P&G network
+9178,0,0,0,0,Scorecard System
+9182,"52,40","52,40","52,40","52,40",Common task / pro-rated
+9202,"5,50","5,50","5,50","5,50",Report listing users who have selected LVQ in the career interest form
+9221,"4,00","4,00","4,00","4,00","Form ""HR - Career Interest (Excel)"" does not show records containing empty interests"
+9226,"14,26","14,26","14,26","14,26",Weekly backups
+9228,0,0,0,0,Create a new test DB instance (old one is atleast 6 months stale)
+9236,"5,35","5,35","5,35","5,35",Update form for 'ORG - Employee 1:1/2:1'
+9237,"11,75","11,75","11,75","11,75","Complete tasks as assigned in ""IT Weekly Health Checkup"""
+9258,"5,00","5,00","5,00","5,00",One Touch: Split functionality for zprs
+9267,"143,77","143,77","143,77","143,77",PEAK scorecard - Team workplan overview for leaders
+9269,"32,73","32,73","32,73","32,73",Payroll: Deal with new year rollover
+9270,"10,59","10,59","10,59","10,59",SAN health check
+9369,"16,95","16,95","16,95","16,95",Setup development environment
+9385,"4,00","4,00","4,00","4,00",HTML/JavaScript Debugging
+9441,"2,00","2,00","2,00","2,00",EI Component Temperature: Add ability to filter by different components
+9442,0,0,0,0,EI Component Temperature: Add ability to import data
+9444,"2,00","2,00","2,00","2,00",EI Component Temperature Admin panel: Make pic lists editable (add columns)
+9445,0,0,0,0,EI Component Temperature: Allow print of components based on panel
+9446,0,0,0,0,"EI Component Temperature:  If an item is > 20 degress celcius above BaselineTemp, visually highlight a component"
+9447,0,0,0,0,EI Component Temperature: Add ability to state that a component has been changed
+9448,0,0,0,0,EI Component Temperature: Be able to handle multiple data entries
+9449,0,0,0,0,E&I Component Temperature: Allow user to toggle temperature between celcius and fahrenheit
+9450,0,0,0,0,E&I Component Temperature: Automatically fahreinheit data to Celcius
+9484,"30,50","30,50","30,50","30,50",Learning about Edit environment
+9488,"0,50","0,50","0,50","0,50",E&I Component temperature logbook
+9511,"24,10","24,10","24,10","24,10",IT Action plan: Application Continuity
+9512,"14,15","14,15","14,15","14,15",IT Action plan: Record retention
+9513,"22,00","22,00","22,00","22,00",IT Action plan: Inventory records
+9514,"0,35","0,35","0,35","0,35",It Action plan: Dev and Test environment
+9515,0,0,0,0,IT Action plan: Sign-on Process
+9516,"0,25","0,25","0,25","0,25",Get montly IT tasks
+9517,"26,70","26,70","26,70","26,70",Write up Job Aids
+9518,"5,40","5,40","5,40","5,40","Complete ""IT Issues and Action Plans - Jan 2015 Brockville"""
+9559,0,0,0,0,IT Support
+9560,"1,10","1,10","1,10","1,10",Monthly: Do restore of different VM backups
+9562,"1,00","1,00","1,00","1,00",IT tasks list
+9579,"1,00","1,00","1,00","1,00","New users are added to ""Unassigned Team"" and can not be resolved"
+9607,"11,00","11,00","11,00","11,00",Firewall CSA
+9612,0,0,0,0,Allow department leaders to see their technican's data
+9613,0,0,0,0,Fix 5 Rock links
