@@ -106,7 +106,7 @@ for file in files:
 	    #Store in data varirable, indexed by tuple of (ticket number, timestamp)
 	    #The tupple allows to express an xy grid for the csv file which csv.writerows can use
             if rowDesc:
-		data[(row[0], 'desciption')] = row[int(rowDesc)]
+		data[(row[0], '#desciption')] = row[int(rowDesc)]
 
             if line > 0:
                 data[(row[0], toHeaderStr(file))] = row[int(column)]

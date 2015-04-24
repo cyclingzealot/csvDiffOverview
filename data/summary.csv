@@ -1,52 +1,52 @@
-ticket,2015/04/23 20:42:52,2015/04/23 20:43:16,2015/04/23 20:49:46,2015/04/23 21:00:01,desciption
-#,,,,,Sujet
-9011,"112,96","112,96","112,96","112,96",Training
-9012,"31,28","31,28","31,28","31,28",Admin work
-9054,"10,01","10,01","10,01","10,01",Troubleshooting/bug fixes
-9077,"32,61","32,61","32,61","32,61",Documents
-9079,"29,05","29,05","29,05","29,05",Research
-9121,"25,28","25,28","25,28","25,28",Setting up environment. Setting up remote access
-9125,"2,05","2,05","2,05","2,05",New features
-9129,"119,70","119,70","119,70","119,70","Communicating between members to give status update, etc"
-9170,"30,80","30,80","30,80","30,80",HR wants Completed 1:1 by Team
-9175,"1,10","1,10","1,10","1,10",Setup Nagios service within P&G network
-9178,0,0,0,0,Scorecard System
-9182,"52,40","52,40","52,40","52,40",Common task / pro-rated
-9202,"5,50","5,50","5,50","5,50",Report listing users who have selected LVQ in the career interest form
-9221,"4,00","4,00","4,00","4,00","Form ""HR - Career Interest (Excel)"" does not show records containing empty interests"
-9226,"14,26","14,26","14,26","14,26",Weekly backups
-9228,0,0,0,0,Create a new test DB instance (old one is atleast 6 months stale)
-9236,"5,35","5,35","5,35","5,35",Update form for 'ORG - Employee 1:1/2:1'
-9237,"11,75","11,75","11,75","11,75","Complete tasks as assigned in ""IT Weekly Health Checkup"""
-9258,"5,00","5,00","5,00","5,00",One Touch: Split functionality for zprs
-9267,"143,77","143,77","143,77","143,77",PEAK scorecard - Team workplan overview for leaders
-9269,"32,73","32,73","32,73","32,73",Payroll: Deal with new year rollover
-9270,"10,59","10,59","10,59","10,59",SAN health check
-9369,"16,95","16,95","16,95","16,95",Setup development environment
-9385,"4,00","4,00","4,00","4,00",HTML/JavaScript Debugging
-9441,"2,00","2,00","2,00","2,00",EI Component Temperature: Add ability to filter by different components
-9442,0,0,0,0,EI Component Temperature: Add ability to import data
-9444,"2,00","2,00","2,00","2,00",EI Component Temperature Admin panel: Make pic lists editable (add columns)
-9445,0,0,0,0,EI Component Temperature: Allow print of components based on panel
-9446,0,0,0,0,"EI Component Temperature:  If an item is > 20 degress celcius above BaselineTemp, visually highlight a component"
-9447,0,0,0,0,EI Component Temperature: Add ability to state that a component has been changed
-9448,0,0,0,0,EI Component Temperature: Be able to handle multiple data entries
-9449,0,0,0,0,E&I Component Temperature: Allow user to toggle temperature between celcius and fahrenheit
-9450,0,0,0,0,E&I Component Temperature: Automatically fahreinheit data to Celcius
-9484,"30,50","30,50","30,50","30,50",Learning about Edit environment
-9488,"0,50","0,50","0,50","0,50",E&I Component temperature logbook
-9511,"24,10","24,10","24,10","24,10",IT Action plan: Application Continuity
-9512,"14,15","14,15","14,15","14,15",IT Action plan: Record retention
-9513,"22,00","22,00","22,00","22,00",IT Action plan: Inventory records
-9514,"0,35","0,35","0,35","0,35",It Action plan: Dev and Test environment
-9515,0,0,0,0,IT Action plan: Sign-on Process
-9516,"0,25","0,25","0,25","0,25",Get montly IT tasks
-9517,"26,70","26,70","26,70","26,70",Write up Job Aids
-9518,"5,40","5,40","5,40","5,40","Complete ""IT Issues and Action Plans - Jan 2015 Brockville"""
-9559,0,0,0,0,IT Support
-9560,"1,10","1,10","1,10","1,10",Monthly: Do restore of different VM backups
-9562,"1,00","1,00","1,00","1,00",IT tasks list
-9579,"1,00","1,00","1,00","1,00","New users are added to ""Unassigned Team"" and can not be resolved"
-9607,"11,00","11,00","11,00","11,00",Firewall CSA
-9612,0,0,0,0,Allow department leaders to see their technican's data
-9613,0,0,0,0,Fix 5 Rock links
+ticket,#desciption,2015/04/23 20:42:52,2015/04/23 20:43:16,2015/04/23 20:49:46,2015/04/23 21:00:01
+#,Sujet,,,,
+9011,Training,"112,96","112,96","112,96","112,96"
+9012,Admin work,"31,28","31,28","31,28","31,28"
+9054,Troubleshooting/bug fixes,"10,01","10,01","10,01","10,01"
+9077,Documents,"32,61","32,61","32,61","32,61"
+9079,Research,"29,05","29,05","29,05","29,05"
+9121,Setting up environment. Setting up remote access,"25,28","25,28","25,28","25,28"
+9125,New features,"2,05","2,05","2,05","2,05"
+9129,"Communicating between members to give status update, etc","119,70","119,70","119,70","119,70"
+9170,HR wants Completed 1:1 by Team,"30,80","30,80","30,80","30,80"
+9175,Setup Nagios service within P&G network,"1,10","1,10","1,10","1,10"
+9178,Scorecard System,0,0,0,0
+9182,Common task / pro-rated,"52,40","52,40","52,40","52,40"
+9202,Report listing users who have selected LVQ in the career interest form,"5,50","5,50","5,50","5,50"
+9221,"Form ""HR - Career Interest (Excel)"" does not show records containing empty interests","4,00","4,00","4,00","4,00"
+9226,Weekly backups,"14,26","14,26","14,26","14,26"
+9228,Create a new test DB instance (old one is atleast 6 months stale),0,0,0,0
+9236,Update form for 'ORG - Employee 1:1/2:1',"5,35","5,35","5,35","5,35"
+9237,"Complete tasks as assigned in ""IT Weekly Health Checkup""","11,75","11,75","11,75","11,75"
+9258,One Touch: Split functionality for zprs,"5,00","5,00","5,00","5,00"
+9267,PEAK scorecard - Team workplan overview for leaders,"143,77","143,77","143,77","143,77"
+9269,Payroll: Deal with new year rollover,"32,73","32,73","32,73","32,73"
+9270,SAN health check,"10,59","10,59","10,59","10,59"
+9369,Setup development environment,"16,95","16,95","16,95","16,95"
+9385,HTML/JavaScript Debugging,"4,00","4,00","4,00","4,00"
+9441,EI Component Temperature: Add ability to filter by different components,"2,00","2,00","2,00","2,00"
+9442,EI Component Temperature: Add ability to import data,0,0,0,0
+9444,EI Component Temperature Admin panel: Make pic lists editable (add columns),"2,00","2,00","2,00","2,00"
+9445,EI Component Temperature: Allow print of components based on panel,0,0,0,0
+9446,"EI Component Temperature:  If an item is > 20 degress celcius above BaselineTemp, visually highlight a component",0,0,0,0
+9447,EI Component Temperature: Add ability to state that a component has been changed,0,0,0,0
+9448,EI Component Temperature: Be able to handle multiple data entries,0,0,0,0
+9449,E&I Component Temperature: Allow user to toggle temperature between celcius and fahrenheit,0,0,0,0
+9450,E&I Component Temperature: Automatically fahreinheit data to Celcius,0,0,0,0
+9484,Learning about Edit environment,"30,50","30,50","30,50","30,50"
+9488,E&I Component temperature logbook,"0,50","0,50","0,50","0,50"
+9511,IT Action plan: Application Continuity,"24,10","24,10","24,10","24,10"
+9512,IT Action plan: Record retention,"14,15","14,15","14,15","14,15"
+9513,IT Action plan: Inventory records,"22,00","22,00","22,00","22,00"
+9514,It Action plan: Dev and Test environment,"0,35","0,35","0,35","0,35"
+9515,IT Action plan: Sign-on Process,0,0,0,0
+9516,Get montly IT tasks,"0,25","0,25","0,25","0,25"
+9517,Write up Job Aids,"26,70","26,70","26,70","26,70"
+9518,"Complete ""IT Issues and Action Plans - Jan 2015 Brockville""","5,40","5,40","5,40","5,40"
+9559,IT Support,0,0,0,0
+9560,Monthly: Do restore of different VM backups,"1,10","1,10","1,10","1,10"
+9562,IT tasks list,"1,00","1,00","1,00","1,00"
+9579,"New users are added to ""Unassigned Team"" and can not be resolved","1,00","1,00","1,00","1,00"
+9607,Firewall CSA,"11,00","11,00","11,00","11,00"
+9612,Allow department leaders to see their technican's data,0,0,0,0
+9613,Fix 5 Rock links,0,0,0,0
