@@ -62,12 +62,12 @@ for pair in `cat $urlsFile`; do
 	curl -sS $url > $dest
 
 	echo Generating summary for $dir in $datadir
-	python ./csvDiffOverview.py $datadir $column
+	python ./csvDiffOverview.py $datadir $column yes
 
 	echo Removing identical reports....
 	$__dir/removeDuplicateReports.bash $datadir
 
-	echo; sleep 5
+	echo; sleep 1
 done
 cd -
 

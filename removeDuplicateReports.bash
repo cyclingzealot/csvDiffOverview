@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-START=$(date +%s.%N)
-
 #exit when command fails (use || true when a command can fail)
 set -o errexit
 
@@ -38,8 +36,6 @@ configFile='~/.binJlam/templateConfig'
 #fi
 
 
-echo Begin `date`  .....
-
 ### BEGIN SCRIPT ###############################################################
 
 
@@ -60,7 +56,3 @@ for file in $1/*; do
 done
 
 ### END SCIPT ##################################################################
-
-END=$(date +%s.%N)
-DIFF=$(echo "$END - $START" | bc)
-echo Done.  `date` - $DIFF seconds
