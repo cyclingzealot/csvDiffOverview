@@ -10,7 +10,7 @@ set -o errexit
 set -o nounset
 
 #(a.k.a set -x) to trace what gets executed
-set -o xtrace
+#set -o xtrace
 
 # in scripts to catch mysqldump fails 
 set -o pipefail
@@ -58,9 +58,13 @@ for pair in `cat $urlsFile`; do
 	url=`echo $pair | cut -d ':' -f 2-`
 
 	mkdir -p $datadir
-	curl $url > $dest
+	echo Getting data for $dir and putting in $dest...
+	curl -sS $url > $dest
 
+	echo Generating summary for $dir in $datadir
 	python ./csvDiffOverview.py $datadir $column
+
+	echo
 done
 cd -
 
